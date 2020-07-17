@@ -1,0 +1,19 @@
+{
+    "name": "lucasviniciusdev/lumen-generate-app-key",
+    "description": "Create the application key in Laravel/Lumen Framework with just one command.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Vinicius",
+            "email": "lucas.vinicius.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lucasviniciusdev\\": "src/"
+        }
+    }
+}
