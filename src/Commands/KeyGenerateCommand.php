@@ -34,7 +34,6 @@ class KeyGenerateCommand extends Command
   public function handle()
   {
     $key = $this->generateRandomKey();
-    $appKey = 'base64:' . $key;
 
     if($this->option('show'))
     {
@@ -48,7 +47,7 @@ class KeyGenerateCommand extends Command
     {
       file_put_contents(
         $path,
-        preg_replace('/(APP_KEY=)(\s|.*)\n/', ("APP_KEY=${appKey}\n"), file_get_contents($path))
+        preg_replace('/(APP_KEY=)(\s|.*)\n/', ("APP_KEY={$key}\n"), file_get_contents($path))
       );
     }
 

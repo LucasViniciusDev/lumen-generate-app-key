@@ -38,4 +38,4 @@ Add param `--show` will display a generate key without replate **APP_KEY** in `.
 Example key
 -----------
 
-**API_KEY=base64:kddzDjSHLzPYZ713NtFNC0ixBCRsERpe**
+**API_KEY=kddzDjSHLzPYZ713NtFNC0ixBCRsERpe**
